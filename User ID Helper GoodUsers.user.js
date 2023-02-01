@@ -3629,3 +3629,29 @@
 }
 });
 })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM75605234")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "–  Matt: Indianapolis У него есть две дочери. Про встречу не говорит. Порнушник жёсткий. Камшерит и показывает член на камеру.  Цепляет тройничек с девушками.Интересовался контактами, потому что хотел уйти с сайта.   ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💸";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
