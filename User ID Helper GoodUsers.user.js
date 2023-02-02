@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.07
+// @version 2.08
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -6343,6 +6343,287 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = " - David/ CM41498165 Общение, встреча. У девушки должны быть хорошие взгляды на жизнь. Ищет  по большей части друга а не девушку. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM850653")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM850653 Claude Зустріч в Geneva(Женева), трохи обмін котактами, хочу спілкуватись на іншому сайті Baltic Single Lady. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM850653")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM850653 Claude Зустріч в Geneva(Женева), трохи обмін котактами, хочу спілкуватись на іншому сайті Baltic Single Lady. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM19372712")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM19372712 Jens Хочу зустріч в Odense, Данія. також хоче отрімати пошту і номер телефону, донатить мало. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM50729184")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM50729184 Ove Хоче зустріч в Aarhus, Данія. Спілкується виключно датською мовою, також хоче щоб його знайшли на Фейсбук, не вірить в чесність сайта.. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM26553120")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM26553120 Andy Хоче зустріч в Фінляндії, дивиться фото в листах.. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM15596559")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM15596559 Richard Називає себе Daddy, педофіл, порно лише з дітьми та підлітками, відкриває фото в чаті якщо сказати що там є дитина на фото ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM94628421")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM94628421 Steven Дуже сильний, довгі камшеери, багато порно, показую член на камеру, очікує що до нього приїдуть в Santa Familia, Cayo District, Belize. Але швидко зникає, кілька днів поспіль зливає багато грошей, потім може кинуть в блок.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM36452536")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM36452536  Wayne Дивиться фото в листах, зустріч в WA(Western Australia). любов, романтика, флірт  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM97151114")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM97151114 Lars-André Сильний, дивиться усі медіа, може довгий камшеер, не надто жорстке порно і зустріч  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM59810144")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM59810144 John Збочинець, любить інцести і секс з підлітками, хоче бути одним чоловіком на оргії, може бути багато коротких текстових чатів, дуже легко дратується якщо сперичатись з ним  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM35830253")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM35830253 Manfred (Terry) Підтримує різні теми для розмови, якщо назвати його Manfred, то більше спілкування не буде. Може дивитись фото  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲💲";
