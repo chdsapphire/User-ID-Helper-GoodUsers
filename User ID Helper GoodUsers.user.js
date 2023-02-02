@@ -251,30 +251,6 @@
 });
 })();
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM84375318")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "1. Южная Корея, Пусан, часто по работе бывает в Seoul 2. Seonsoo 4. нужна встреча, порно, обмен инфой 5. занимается различными техническими разработками и исследованиями, например коврики для лежачих больных от пролижней, кровати, которые дают супер сон 6. мечтает разработать что то грандиозное и получить за это много денег ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲💲";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
 
 
 (function() {
