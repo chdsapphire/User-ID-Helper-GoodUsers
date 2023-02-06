@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.08
+// @version 2.09
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -6600,6 +6600,108 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = " - CM35830253 Manfred (Terry) Підтримує різні теми для розмови, якщо назвати його Manfred, то більше спілкування не буде. Може дивитись фото  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM59035094")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - Joe CM59035094 - Мужик хочет контакты, очень хорошо заряжает чаты и шлет свои фото. Любит комплименты в свою сторону и любит любовные смс  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM27443653")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - John CM27443653 хоче зустріч, порно. Він нефтяник. Можно вибити дзвінок. в нього є дружина. Він класнов едется на зустріч і секс. Але це не повинно бути примусово. Він боїтся що дружина в нього усі баби забере якщо він буду зраджувати.Коли він заходить в онлайн, він одразу їде кудись в чат. Тому треба штормити. Кпд дивится багато медіа  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM31693509")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - CM31693509 Miguel  1. Torreblanca, Испания 2. Miguel 3. +34 64 208 75 77 4. Любовь, контакты, встреча 5. С контактами нужно быть осторожным. Жаловался на переводчика, который отказывался от его идей по обмену контактами. 6. Низкая самооценка, слабый на любовь, встречу, контакты. Вечно хочет экономить кредиты, но по факту готов платить. Медийку не смотрит, только если касается контактов  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM41246000")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " - жирний порно камш  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲💲";
