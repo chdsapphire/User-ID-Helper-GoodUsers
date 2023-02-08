@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.11
+// @version 2.12
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -1806,30 +1806,7 @@
 })();
 
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM97254308")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "– Gary (Любит порно, хочет встречу,иногда чаты и смотрит фото)";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
+
 
 
 (function() {
@@ -6087,7 +6064,7 @@
   if (link.textContent.includes("CM97254308")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = " - Gary.Newport BeachИнтересы: встреча/порно/контакты. Куколд. Заводят фантазии и реальные случаи, когда его девушку берёт кто-то другой. Слишком со многими девушками общается, почти не концентрируясь ни на одной.   ";
+  newElement.innerHTML = " - Gary.Newport Beach Интересы: встреча/порно/контакты. Куколд. Заводят фантазии и реальные случаи, когда его девушку берёт кто-то другой. Слишком со многими девушками общается, почти не концентрируясь ни на одной. <br>– Gary (Любит порно, хочет встречу,иногда чаты и смотрит фото)  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲";
