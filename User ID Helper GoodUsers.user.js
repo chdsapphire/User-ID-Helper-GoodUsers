@@ -4604,30 +4604,7 @@
 })();
 
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM41498165")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "– David Возможны встречи, никаких обмен контактами, никакого порно.   ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
+
 
 
 (function() {
@@ -6295,7 +6272,7 @@
   if (link.textContent.includes("CM41498165")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = " - David/ CM41498165 Общение, встреча. У девушки должны быть хорошие взгляды на жизнь. Ищет  по большей части друга а не девушку. ";
+  newElement.innerHTML = " - David/ CM41498165 Общение, встреча. У девушки должны быть хорошие взгляды на жизнь. Ищет  по большей части друга а не девушку. <br> – David Возможны встречи, никаких обмен контактами, никакого порно. ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲";
