@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.13
+// @version 2.14
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -6756,6 +6756,57 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = " CM49957456 - Можно викликати в чат написавши аеропорт його міста. Каже що хоче покинути сайт, можно спробувати пазл обміну контактами.   ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM31046843")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM31046843 - Пошта Soliddeephouse g.mail - можно викликати на обмін контактами. Була відповідь в чаті на мномер телефона   ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM70592")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Зустріч,порно,обмін контактами. Він мед брат в клініці в його місті. Він реагує на обмін контактами, на пазли з цифрами, на пошук в фб. <br> Він може тиждень приходити в чат. Йому потрібно завжди багато і активно писати. <br> Порно потрібне цікаве.Типу подруга вчора їбалась з сином трампа.   ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲";
