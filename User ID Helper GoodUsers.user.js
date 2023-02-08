@@ -6549,7 +6549,7 @@
   if (link.textContent.includes("CM97151114")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = " - CM97151114 Lars-André Сильний, дивиться усі медіа, може довгий камшеер, не надто жорстке порно і зустріч  ";
+  newElement.innerHTML = " - CM97151114 Lars-André Сильний, дивиться усі медіа, може довгий камшеер, не надто жорстке порно.Починати спілкування варто з того що у клієнтки є плани на переїзд в Норвегію  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲💲";
