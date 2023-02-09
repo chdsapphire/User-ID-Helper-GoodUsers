@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.11
+// @version 2.12
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -15,6 +15,46 @@
 // @updateURL https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js
 // @downloadURL https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js
 // ==/UserScript==
+
+(function() {
+  'use strict';
+
+  function checkForUpdates() {
+      console.log("Checking for updates...");
+
+      // Fetch the raw link from GitHub
+      fetch("https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js")
+          .then(response => response.text())
+          .then(text => {
+              // Extract the version from the fetched script
+              const match = /@version\s+([\d.]+)/.exec(text);
+              if (match) {
+                  const version = match[1];
+
+                  // Compare the version with the current version
+                  if (version > GM_info.script.version) {
+                      console.log(`A new version (${version}) is available.`);
+                      // Add your code to update the script here
+                  } else {
+                      console.log("You have the latest version.");
+                  }
+              } else {
+                  console.error("Could not extract version information.");
+              }
+          })
+          .catch(error => {
+              console.error("An error occurred while checking for updates.", error);
+          });
+  }
+
+  function runUpdateCheck() {
+      checkForUpdates();
+      setTimeout(runUpdateCheck,  60 * 60 * 1000);
+  }
+
+  runUpdateCheck();
+})();
+
 
 (function() {
   'use strict';
