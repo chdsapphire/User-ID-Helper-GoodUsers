@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.13
+// @version 2.14
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -7902,6 +7902,31 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "CM56575720 Franke Neal – Живет на данный момент в Нью Хемпшир, Laconia в доме для бездомных, раньше он жил с сестрой но тратил все деньги на общение на сайте и поэтому сестра часто ругалась с ним потому что он не платил за дом и не помогает ей. Любит обсуждать тему обмена контактами, легкое порно и встречу, в чатах медийку может читать если хорошо попросить под предлогом что на фото изображена важная информация или очень красивая фото. Слабые места это его отношения с семьей и отсутствие денег поэтому лучше подбадривать его всегда и говорить что все будет хорошо и ты поможешь ему с деньгами иначе он будет сдаваться и уходить в дипрессию. У него всегда мало денег поэтому может часто пропадать.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM69495872")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM69495872(Mustafa)  Живет в Анталии, работает админом магазина в отеле, ведется на контакты и хочет общения на других площадках.";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲";
