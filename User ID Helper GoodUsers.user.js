@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.15
+// @version 2.16
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -14430,6 +14430,31 @@
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "🎁";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM21235859")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "Gift Active Man - кажуть багато грошей";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "🎁🤴 ";
   button.style.marginLeft = "5px";
   button.addEventListener("click", function() {
   if (newElement.style.display === "none") {
