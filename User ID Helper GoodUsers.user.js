@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.17
+// @version 2.20
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -16254,6 +16254,356 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "общение в чате. Письма читает но не шлет. Порно . Фантазии о сексе модели и её сына , а так же его школьных друзей.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM29579556")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM29579556 — Gary LundtvedtСильная Любовь,Страсть,Встреча! Есть Дочь Юля(бывшая жена Наташа они в нормальных отношениях)Гери работает Електрик в NASA!Чатиться 2-3 раза в день, может камшеер, фото смотрит редко! Чаты или порно или любовь!Ведется на трісом";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM86820774")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM86820774 — Hasan Ekerol -На анкете очень давно! Любит ныть, надо говорить о любви и что он самый лучший!Он сейчас переезжает в турцию из канады, там у него семья + куча имущества, вилла, квартира! У Хасана есть дочь, Сара, она расталась с парнем но нашла ноговый роман!Хасан может играть на гитаре, делать камшееры, любит говорить о любви, пишет стихи!Должна была быть встреча, но не сбылось умер отец у вики!";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM44627745")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM44627745 — Ian HandleyПорнуха, Любовь,Контакт инфа!У него сейчас нет ноги! Може вестись на гроші,і секс";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM48081821")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM48081821 — Peter Hoster.Любовь, порно,контат инфа! - тип писал на сайт за контакт инфу!Писать ему о любви! Обещать все что хочет!";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM77609467")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM77609467 — Roger Stephen Wallace!Должна была быть встреча,О нем:Пенсионер,мало денег, верующий!Сестра живет рядом снимОбщение:Безумнаю любовь, встреча летом!  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM92846888")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM92846888 — paul date О нем:Он работает на груз машине! Есть пес Alfie и дочь!Общение: Он хочет вика приехала и дала ему мыло иначе он уйдет!Капризный, любит что бы вика показала ему что то на камеру без предварительных ласк! Обещать встречу летом!  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM97217601")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM97217601 — Fabio arlottiО нем:он повар в итальянском ресторане! Часто пропадает из чата в оффлайн и возвращается!Общение:Порно,попросить письмо!  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM959686")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM959686 — Randolph BooneО нем:Он Риелтор,у него больной отец! Общение:Любовь, он второй год обещает приехать в киев! Любит порно!  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM59371698")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM59371698 — James Pierce.О нем:Просто пенсионер!Есть собака и дети люит играть на гитаре.Общение:Любовь до потери пулься, встреча!Сказать летом, часто нет кредитов! Любит порно, любое!Сильная любовь!";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM26690492")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM26690492 — alex liu О нем:Работает програмистом! Общение:Любовь, он может резко проебаться!Встреча летом, любит порнушку и любит письма о любви!";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM42647482")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "🔸CM42647482 — Stephen Walker О нем: Раб,хочет быть женщиной!Владеет ритуальными аенствами, продает их для того что бы начать жизнь с викой!Есть приемная дочь Сара! Все имужество он завещает ей!  Общение: Вика очень богатая, знает магию,хочет сменить ему пол на женский!Хочет что бы он был с большой грудью С600 обьем, большая жопа, Рыжие волосы!Большие губы, пирсинг на сосках,тату что он ее собственность! У нее есть дом в карпатах где комната для игр с ним!она хочет жениться на нем 2 раза, Первый раз пока он мужчина с писей!2й раз когда он женщина раба! Когда он женщина его ждет латекстный и кожаный костюм леди кошки и он будет на высоких каблуках всегда!  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM85783723")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "Georg CM85783723 - контакты, короткий CamShare редко отказывает";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM61378257")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "VIJAY CM61378257 -  контакты, порно, редко читает письма, если в чате, то можно потянуть длинный CamShare  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM45196807")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "David CM45196807 - порно, длинный CamShare, новичок на сайте";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲 ";
