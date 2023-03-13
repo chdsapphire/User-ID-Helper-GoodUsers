@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.20
+// @version 2.21
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -298,31 +298,6 @@
   let links = document.querySelectorAll("td a");
   links.forEach(function(link) {
   if (link.textContent.includes("CM89717624")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "1. New South Wales, Australia 2. Richard 4. Мужчина работает водителем автобуса и собирается уйти на пенсию, чтобы мог наслаждаться жизнью. 5. Его интересует встреча и порно. 6. Скептик и эгоист  ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
-
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM32760556")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "1. New South Wales, Australia 2. Richard 4. Мужчина работает водителем автобуса и собирается уйти на пенсию, чтобы мог наслаждаться жизнью. 5. Его интересует встреча и порно. 6. Скептик и эгоист  ";
