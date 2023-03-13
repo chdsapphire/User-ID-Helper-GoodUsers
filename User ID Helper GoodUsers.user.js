@@ -16720,3 +16720,28 @@
 }
 });
 })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM61378257")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM61378257 Vijay Архитектор, рабоатет и живёт в Торонто. Разошёлся с женой, развод состоится через год. Дочь 22 года Renee. Хочет встретить будущую жену. Вегетарианец, но ест курицу и рыбу. Работает удалённо. Письма читает слабо. Если заинтересуете его встречей +камшер будет. Говорите, что модель не далеко от него.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "💲 ";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
