@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.30
+// @version 2.31
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
