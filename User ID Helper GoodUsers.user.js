@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.24
+// @version 2.30
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -20253,7 +20253,7 @@
   if (link.textContent.includes("CM14798812")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "– CM14798812	Todd  хочет встречу.Любит быстрые ответы.Хочет более легкого и доступного общения. если долго не отвечать, начинает беситься. </br> </br> – CM14798812 Todd хочет встречу.Любит быстрые ответы.Хочет более легкого и доступного общения. если долго не отвечать, начинает беситься.";
+  newElement.innerHTML = "– CM14798812	Todd  хочет встречу.Любит быстрые ответы.Хочет более легкого и доступного общения. если долго не отвечать, начинает беситься.";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲 ";
