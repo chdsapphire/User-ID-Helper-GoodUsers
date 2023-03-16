@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.31
+// @version 2.32
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -3278,30 +3278,6 @@
 })();
 
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM27209072")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = " JOHN - CM27209072–сейчас мужчина активно разгадывает шарады, хочет так обменять контакт с девушкой.советую девушке точно сказать мужчине, хочет ли она обменять контакт?советую девушке прекратить неправильно направлять, избегайте рисков. спасибо.  ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "❌";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
- }
-});
-})();
 
 (function() {
   'use strict';
@@ -3514,7 +3490,7 @@
   if (link.textContent.includes("CM27209072")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = " CM27209072 - хочет получить контакты девушки   ";
+  newElement.innerHTML = " – CM27209072 - хочет получить контакты девушки </br> – JOHN - CM27209072–сейчас мужчина активно разгадывает шарады, хочет так обменять контакт с девушкой.советую девушке точно сказать мужчине, хочет ли она обменять контакт?советую девушке прекратить неправильно направлять, избегайте рисков. спасибо.  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "❌";
@@ -12047,30 +12023,7 @@
 });
 })();
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM29356558")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "CM29356558 Robbert  хочет встречи.Если чувствует слив,закрывает акк.";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
+
 
 (function() {
   'use strict';
@@ -19033,7 +18986,7 @@
   if (link.textContent.includes("CM29579556")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "CM29579556 - Gary (Любит порно ,читает письма, пишет иногда..в чатах по 1 кредиту в основном..)";
+  newElement.innerHTML = " – CM29579556 - Gary (Любит порно ,читает письма, пишет иногда..в чатах по 1 кредиту в основном..) </br> – 🔸CM29579556 — Gary LundtvedtСильная Любовь,Страсть,Встреча! Есть Дочь Юля(бывшая жена Наташа они в нормальных отношениях)Гери работает Електрик в NASA!Чатиться 2-3 раза в день, может камшеер, фото смотрит редко! Чаты или порно или любовь!Ведется на трісом";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲 ";
@@ -19714,7 +19667,7 @@
   if (link.textContent.includes("CM29356558")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "CM29356558	Robbert   хочет встречи.Если чувствует слив,закрывает акк.";
+  newElement.innerHTML = " – CM29356558	Robbert   хочет встречи.Если чувствует слив,закрывает акк.";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "💲 ";
@@ -20434,30 +20387,7 @@
 });
 })();
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM29579556")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "🔸CM29579556 — Gary LundtvedtСильная Любовь,Страсть,Встреча! Есть Дочь Юля(бывшая жена Наташа они в нормальных отношениях)Гери работает Електрик в NASA!Чатиться 2-3 раза в день, может камшеер, фото смотрит редко! Чаты или порно или любовь!Ведется на трісом";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "💲 ";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-}
-});
-})();
+
 
 (function() {
   'use strict';
