@@ -20845,3 +20845,111 @@
 }
 });
 })();
+
+(function() {
+  'use strict';
+
+  let links = document.querySelectorAll("td a,p");
+
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM27709781")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "Complaint <br/>девушка направлять мужчины встречаться в реальном. но девушка не действительно хочет встречаться.и так мужчине недовольно, он сомневается о девушкой сейчас.Домовились на зустріч, тіп не писав 3 дні";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+
+  let links = document.querySelectorAll("td a,p");
+
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM55103868")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "мужчина хочет обменять контакт. и девушка согласилась дать.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM30287688")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "мужчина хочет обменять контакт, и встречаться в реальном с девушкой. - авансом попереджати щоб не писав на сайт. Читае 3 листи на місяць";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+  (function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM33794660")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "девушка сказала мужчине, что она будет встречаться в реальном, и будет дать мужчине кредиты, контакт и.т.д..и так мужчина сомневается, что это правда?и он хочет знать, будет ли девушка в Канада?- авансом попереджати щоб не писав на сайт. Читае 3 листи на місяць";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
