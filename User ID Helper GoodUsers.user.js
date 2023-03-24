@@ -20848,31 +20848,31 @@
 
 (function() {
   'use strict';
-
+  
   let links = document.querySelectorAll("td a,p");
 
   links.forEach(function(link) {
-  if (link.textContent.includes("CM27709781")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "Complaint <br/>девушка направлять мужчины встречаться в реальном. но девушка не действительно хочет встречаться.и так мужчине недовольно, он сомневается о девушкой сейчас.Домовились на зустріч, тіп не писав 3 дні";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "❌❌";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
+    if (link.textContent.includes("CM27709781")) {
+      link.style.color = "red";
+      let parent = link.parentElement;
+      let newElement = document.createElement("div");
+      newElement.innerHTML = " – Complaint <br/> – девушка направлять мужчины встречаться в реальном. но девушка не действительно хочет встречаться.и так мужчине недовольно, он сомневается о девушкой сейчас.Домовились на зустріч, тіп не писав 3 дні <br/> – Не піднімати тему зустрічі, спілкування з ним переврія сайт на момент 24.03.2023";
+      newElement.style.display = "none";
+      let button = document.createElement("button");
+      button.innerHTML = "❌❌❌";
+      button.style.marginLeft = "5px";
+      button.addEventListener("click", function() {
+        if (newElement.style.display === "none") {
+          newElement.style.display = "block";
+        } else {
+          newElement.style.display = "none";
+        }
+      });
+      parent.appendChild(button);
+      parent.appendChild(newElement);
+    }
   });
-
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-  }
-  });
-  })();
+})();
 
 (function() {
   'use strict';
