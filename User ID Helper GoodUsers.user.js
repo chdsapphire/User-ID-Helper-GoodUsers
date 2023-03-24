@@ -20848,9 +20848,7 @@
 
 (function() {
   'use strict';
-  
   let links = document.querySelectorAll("td a,p");
-
   links.forEach(function(link) {
     if (link.textContent.includes("CM27709781")) {
       link.style.color = "red";
@@ -20873,6 +20871,34 @@
     }
   });
 })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+    if (link.textContent.includes("CM58142939")) {
+      link.style.color = "red";
+      let parent = link.parentElement;
+      let newElement = document.createElement("div");
+      newElement.innerHTML = " – Complaint <br/> – Найняв детектива щоб знайти соц мережі кліентки. Кліентка вагітна і одружена.";
+      newElement.style.display = "none";
+      let button = document.createElement("button");
+      button.innerHTML = "❌❌❌";
+      button.style.marginLeft = "5px";
+      button.addEventListener("click", function() {
+        if (newElement.style.display === "none") {
+          newElement.style.display = "block";
+        } else {
+          newElement.style.display = "none";
+        }
+      });
+      parent.appendChild(button);
+      parent.appendChild(newElement);
+    }
+  });
+})();
+
+
 
 (function() {
   'use strict';
