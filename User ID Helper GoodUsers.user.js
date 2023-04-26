@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.50
+// @version 2.52
 // @description Adds a helper message near user ID
 // @author Me
 // @match https://www.charmdate.com/**
@@ -27,6 +27,83 @@
   'use strict';
   let links = document.querySelectorAll("td a,p");
   links.forEach(function(link) {
+  if (link.textContent.includes("CM58733753")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM58733753 Herb- живет в Виржиния Бич. Мужик любит кататься на серфинге, ведет активный образ жизни и ищет активную женщину которая любит много работать и не сидеть на месте. Не верит сайту и думает что женщины говорят одно и тоже. Зацепить его можно тем что находишься рядом с ним либо контактами.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM86102420")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM86102420 DJ –живет в oceanside, Калифорния. Общение либо контакты либо встреча, короткие письма.  Он не особо разговорчив поэтому о себе толком ничего не говорит но у него есть кузины в Лонг-Бич, Калифорния. Чаты не ходит. Можно зацепить встречей и контактами, может очень хорошо отреагировать если ты попытаешься дать ему контакты.   ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM94595240")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM94595240 Jim – Живет в Аделаиде, злой и нервный мужчина, его интересует встреча здесь и сейчас и больше ничего не хочет обсуждать. О сайте все знает поэтому в чаты практически не ходит и не использует никаких услуг сайта потому считает это бессмысленной тратой денег так как вся инфа блокируется везде на сайте. Ему нужна встреча конкретно место, время и день. Зацепить можно встречей что приедешь к нему на днях. Если не встречаться с ним или отменять встречи будет нервничать и обвинять во лжи.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
   if (link.textContent.includes("CM60277667")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
@@ -47,6 +124,57 @@
   }
   });
   })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM67404945")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM67404945 Dennis –  Живет в Берлингтон, Висконсин. Короткие письма с ним про встречу в письмах и можно нейтральный флирт, обниму, поцелую, приласкаю тебя в кровати и тд. Чаты иногда приходит. Мужик не особо разговорчив, много работает, о себе мало что рассказывает поэтому общение с ним в основном о месте встречи, контактах. Зацепить его можно встречей и контактами и что ты находишься где то рядом с ним и можешь пересечься с ним на днях. Но с ним осторожно потому что кажется у него есть фейк и он проверяет дам с которыми он общается на сайте, его новый акк (CM67404945)    ";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM95865910")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM95865910 Dennis –  Живет в Берлингтон, Висконсин. Короткие письма с ним про встречу в письмах и можно нейтральный флирт, обниму, поцелую, приласкаю тебя в кровати и тд. Чаты иногда приходит. Мужик не особо разговорчив, много работает, о себе мало что рассказывает поэтому общение с ним в основном о месте встречи, контактах. Зацепить его можно встречей и контактами и что ты находишься где то рядом с ним и можешь пересечься с ним на днях. Но с ним осторожно потому что кажется у него есть фейк и он проверяет дам с которыми он общается на сайте, его новый акк (CM67404945)    ";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+  
 
 (function() {
   'use strict';
