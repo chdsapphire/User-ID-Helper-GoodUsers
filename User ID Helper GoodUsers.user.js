@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 2.42
+// @version 2.50
 // @description Adds a helper message near user ID
 // @author Me
 // @match https://www.charmdate.com/**
@@ -22,6 +22,1237 @@
 // @updateURL https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js
 // @downloadURL https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js
 // ==/UserScript==
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM60277667")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM60277667  Johnny Хочет быструю встречу, контакты не читает, порно тоже нет";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM31753694")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM31753694  A  Anthony настоящее имя, тема общения любовь, встреча, романтика, порно очень легкое  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM70793114")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM70793114 Джек. Хочет контакты.Активно пытается передать свой номер через фото или в письме чтоб не платить.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM44701692")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM44701692 Фил. Мужчина романтик. общение в основном письмами. У него рассеяный склероз. Может повторять что уже было. Есть сын.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM55541327")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM55541327 - ищет встречу, хочет страстную женщину, готовую на множество экспериментов и готовую приводить подруг понятно для чего.   ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM94305926")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM94305926 Брайан. Мужчина настроен на встречу. Любит порнушить. Но не против любовного общения. На камше придирчив к мелочам в сплите";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM38092830")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM38092830  Joe - интересует встреча , живет в Словении работает очень много постоянно занятой , много путешествует. Можно предлагать  провести каникулы вместе.";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM87531044")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM87531044  Love - интересует дружба которая перерастет в любовь. Редко выходит на связь , но можно выманить тем что встреча в ближайшее время";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM22917192")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM22917192  Bobby Мужчина который уже не надеется ни с кем встретится на сайте но все же пишет и говорит про встречи. Была операция и за ним нужен уход пока он не восстановиться. Можно писать про встречу в аэропорту. И кажись он не против быть мастером доминантом .    ";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })(); 
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM30189566")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM30189566 Pram зустріч, обмін контактами";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM63236122")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM63236122 Bert (Albert) Контакти";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM90815599")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM90815599 Ross (Russ) Любить довгі листи, та багато порно, і зустріч";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM596734")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM596734 david Дуже релігійний, БЕЗ порно, хоче зустріч, та відносини, також повернутий на спорті    ";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+  (function() {
+    'use strict';
+    let links = document.querySelectorAll("td a,p");
+    links.forEach(function(link) {
+    if (link.textContent.includes("CM12215097")) {
+    let parent = link.parentElement;
+    let newElement = document.createElement("div");
+    newElement.innerHTML = "CM12215097 Robert (Scott) Хоче реальну зустріч в його місті, плюс легка еротіка";
+    newElement.style.display = "none";
+    let button = document.createElement("button");
+    button.innerHTML = "ℹ️";
+    button.style.marginLeft = "5px";
+    button.addEventListener("click", function() {
+    if (newElement.style.display === "none") {
+    newElement.style.display = "block";
+    } else {
+    newElement.style.display = "none";
+    }
+    });
+    parent.appendChild(button);
+    parent.appendChild(newElement);
+    }
+    });
+    })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM94305926")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM94305926 - он ищет контакты + встреча, но может быстро слиться, если не держать постоянно на пазле. Остальное что было просто однодневки - написали и ушли, не знаю стоит ли что-то писать про них, т.к. инфа минимальная  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM90764995")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM90764995 RON ( находится в San Jose ) - порнушник, общается только в чате, письма не пишет, говорит, что у него мало денег. Хочет встречи, но на встречу не давит, в основном только порно  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM87571741")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "  CM87571741 Julian ( находится в Idaho Falls) - простое общение, порно его не интересует. Помешан на книгах, аниме. Любит фантастику. Хочет обменяться контактами и встретиться.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM24615939")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM24615939 Jurgen ( находится в Broechem) - его интересуют только контакты, так же он порнушник, любит секс игрушки";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM24615939")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM24615939 Jurgen ( находится в Broechem) - его интересуют только контакты, так же он порнушник, любит секс игрушки";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM73332833")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "  CM73332833 William ( находится в Brighton) - его интересует порно и встреча, в основном общение по письмам, говорит, что готов зайти в чат и посмотреть на камеру, но этого не делает.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM45120441")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " CM45120441 DAVID ( находится в Santa Barbara) - его интересует встреча, ухаживает за больным отцом и планирует переехать. У него сложная судьба, любит поныть, что бы его пожалели. Но если он говорит, что бы девушка не присылала фото в письмах, лучше его послушать иначе он заблокирует.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM61485130")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM61485130 Patrick ( находится в Doylestown) - его интересует встреча,сначала лучше обычное общение, а потом можно добавить порно. У него очень переменчивое настроение, сначала может говорить, что ждёт и любит, а на следующий день говорить, что покидает сайт, якобы мы не подходим друг другу, но потом опять пишет, что любит..";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM11657415")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM11657415 - встреча, обмен контактами. музыкант, ждет когда Роксолана приедит в Швейцарию, прислал свой адрес и телефон (Жан-Пьер Шарль МАРАДАН +41 79 135 96 84)ему не нравится оставаться на сайте, постоянно скидывает свои контакты.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM11657415")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM70842485 - встреча, порно. Поляк, очень ждет встречу, давно на сайте и знает что все девушки сливаються перед встречей, говорит что знает все отговорки. В чат не ходит, только в письмах. Порнушник любит молоденьких девочек и подробности что будет делать при встрече. У него живет семья из Украины (беженцы)";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM70842485")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM70842485 - встреча, порно. Поляк, очень ждет встречу, давно на сайте и знает что все девушки сливаються перед встречей, говорит что знает все отговорки. В чат не ходит, только в письмах. Порнушник любит молоденьких девочек и подробности что будет делать при встрече. У него живет семья из Украины (беженцы)";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM77221249")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM77221249 - Контакты, постоянно пытается передать свои контакты, скидывает почту на фото, и предлагает уйти с этого сайта в другое место для общения";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM23658550")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM23658550  -  встреча. Давно на этом сайте и писал что уже не верит девушкам тут, у него рак, сейчас проходит лечение. Есть бывшая жена и 2 дочери, для него важна семья. Скидывал фото члена";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM83866449")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM83866449 - контакты. пытается передать свои контакты от соцсетей, знает что сайт блокирует фото с информацией о контактах. В чате тоже пытался написать свою почту и адрес. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM30689366")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM30689366 - контакты. написал в письме свою почту";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM10546463")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM10546463 - хочет встречу. Любит барбекю и свой трак. Хочет контакты, порно нет";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM47844441")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM47844441 - ищет быструю встречу. Очень доебчив. Город выбирайте подальше от него, может приехать  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM836207")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM836207 - жеское порно + встреча";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM71803402")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM71803402 - хочет встречи. Доебчивый. Легкое порно";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM67857461")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM67857461 Dan Лайтовое порно, контакты (ютуб, телеграм, ватсап), на встрече не настаивает, настоящее имя Дон ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM18167363")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM18167363 Ronald Порно, очень любит оральный секс, лизать все что можно, футфетишист, может в кам, может письма, фотки смотрит с комментариями в основном  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM70793114")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM70793114 Jack Контакты, ведется на номер телефона, ватсап и телеграм  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM72481624")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM72481624 Dion Контакты (FB и номер), быстрая встреча  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM55103868")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM55103868  Frank Иногда приходит в чат, редко читает письма, но в основном контакты и встреча, хотя и не верит что сайт пропустит их, очень обижен на сайт и просто король драмы ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM84851019")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM84851019 Tore  Контакты, тычет свой номер телефона постоянно, фотки с провокациями по поводу контактов в чате смотрит, можно вызывать на ФБ, иногда встреча и порно";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM2542954")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM2542954 Harley Настоящее имя Denny, порно чаты и письма, хочет групповушку, жену, детей и всего понемногу, встречу тоже но не сильно торопиться с этим  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM92316389")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "mike CM92316389 – живет в деревне где 400 человек, агрится когда говоришь что в его городе. Встреча, можно контакты пробовать";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM15463731")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM15463731 - не одобается тема порно.Скарга на інвай в чаті";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM17623462")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM17623462 - особий статус. Сайт перевіря листи йому. Не писати відкрито про зустріч, контакти,порно.Використовувати метафори.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM86799341")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM86799341 - особий статус. Сайт перевіря листи йому. Не писати відкрито про зустріч, контакти,порно.Використовувати метафори.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM32073752")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM32073752 - особий статус. Сайт перевіря листи йому. Не писати відкрито про зустріч, контакти,порно.Використовувати метафори.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM60084448")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "мужчина сказал сайту, что девушка нереальная.потому что девушка недействительно будет вне сайта связыаться";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM67648987")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "не писати про зустріч";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM72171292")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "високе очікування швидкості доставки листів - відповідати на листи асап";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "⚡️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM87748365")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "короче тип отсудил у чарма лаве";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "❌❌❌❌❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+  }
+  });
+  })();
+
 
 (function() {
   'use strict';
