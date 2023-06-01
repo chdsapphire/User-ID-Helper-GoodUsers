@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper GoodUsers
 // @namespace http://example.com/
-// @version 3.02
+// @version 3.03
 // @description Adds a helper message near user ID
 // @author Me
 // @match https://www.charmdate.com/**
@@ -23,7 +23,55 @@
 // @downloadURL https://github.com/chdsapphire/User-ID-Helper-GoodUsers/raw/main/User%20ID%20Helper%20GoodUsers.user.js
 // ==/UserScript==
 
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM12782930")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM12782930  Juan - находится в Erie, жёсткий порнушник, его фетиш - смотреть как девушка писяет. Много денег.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
 
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a,p");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM72481624")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM72481624  Dion - находится в Calgary, интересуют контакты и встреча, не порнушник, обычное любовное общение, романтик.";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+}
+});
+})();
 
 (function() {
   'use strict';
